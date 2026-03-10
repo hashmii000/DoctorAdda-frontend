@@ -1,0 +1,29 @@
+.notice-container {
+  width: 100%;
+  overflow: hidden;
+  background: #ffefc1;
+  color: #c0392b;
+  font-weight: bold;
+  border: 1px solid #f1c40f;
+  padding: 8px 0;
+  position: relative;
+  font-size: 18px;
+  color: #c0392b;
+  margin-top: 40px;
+}
+
+.notice-text {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll-left 18s linear infinite;
+  padding-left: 100%;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
